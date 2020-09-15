@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mobiledoc">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Mobile Doc"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Sensors.MotionSensorActivity"></activity>
+        <activity android:name=".Sensors.CompassActivity" />
+        <activity android:name=".Sound.MicrophoneActivity" />
+        <activity
+            android:name=".NavigationMenu.MyPhoneInfo"
+            android:label="My Phone Info" />
+        <activity android:name=".Hardware.Battery" />
+        <activity android:name=".Connectivity.GPSCheck" />
+        <activity android:name=".Connectivity.BluetoothCheck" />
+        <activity android:name=".Connectivity.MobileDataCheck" />
+        <activity android:name=".Connectivity.WifiCheck" />
+        <activity android:name=".NavigationMenu.ContactActivity" />
+        <activity android:name=".NavigationMenu.AboutActivity" />
+        <activity android:name=".NavigationMenu.SettingsActivity" />
+        <activity android:name=".Camera.Flash" />
+        <activity android:name=".Camera.TestCamera" />
+        <activity android:name=".Sensors.ProximityActivity" />
+        <activity android:name=".Sensors.OrientationActivity" />
+        <activity android:name=".Sensors.LightSensorActivity" />
+        <activity android:name=".Starting.ScreenActivity" />
+        <activity android:name=".Starting.SoundActivity" />
+        <activity android:name=".Starting.SensorsActivity" />
+        <activity android:name=".Starting.HardwareActivity" />
+        <activity android:name=".Starting.ConnectivityActivity" />
+        <activity android:name=".Starting.CameraActivity" />
+        <activity android:name=".Starting.StartingActivity" />
+        <activity android:name=".Starting.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.STORAGE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+</manifest>

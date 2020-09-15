@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home"></item>
+        <item
+            android:id="@+id/nav_MobileInfo"
+            android:icon="@drawable/ic_perm_device_information_black_24dp"
+            android:title="My Phone Info"></item>
+        <item
+            android:id="@+id/nav_Settings"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="Settings"></item>
+        <item
+            android:id="@+id/nav_About"
+            android:icon="@drawable/ic_info_black_24dp"
+            android:title="About"></item>
+        <item
+            android:id="@+id/nav_Contact"
+            android:icon="@drawable/ic_contact_phone_black_24dp"
+            android:title="Contact Us"></item>
+        <item
+            android:id="@+id/nav_Feedback"
+            android:icon="@drawable/ic_feedback_black_24dp"
+            android:title="Send Feedback"></item>
+    </group>
+</menu>

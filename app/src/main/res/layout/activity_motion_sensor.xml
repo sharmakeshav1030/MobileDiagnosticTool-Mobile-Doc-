@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sensors.MotionSensorActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MOTION SENSORS"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.179" />
+
+    <TextView
+        android:id="@+id/txt_acc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Accelerometer"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.595" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="360sp"
+        android:layout_height="25sp"
+        android:layout_marginBottom="516sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/txt_acc_x"
+            android:layout_width="120sp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/txt_acc_y"
+            android:layout_width="120sp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/txt_acc_z"
+            android:layout_width="120sp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_gry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gyroscope"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.727" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="360sp"
+        android:layout_height="25sp"
+        android:layout_marginBottom="416sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/txt_gry_x"
+            android:layout_width="120sp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/txt_gry_y"
+            android:layout_width="120sp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/txt_gry_z"
+            android:layout_width="120sp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_grav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gravity"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:layout_constraintVertical_bias="0.781" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="360sp"
+        android:layout_height="25sp"
+        android:layout_marginBottom="316sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/txt_grav_x"
+            android:layout_width="120sp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/txt_grav_y"
+            android:layout_width="120sp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/txt_grav_z"
+            android:layout_width="120sp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_rot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rotation Vector"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+        app:layout_constraintVertical_bias="0.781" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="360sp"
+        android:layout_height="25sp"
+        android:layout_marginBottom="216sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/txt_rot_x"
+            android:layout_width="120sp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/txt_rot_y"
+            android:layout_width="120sp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/txt_rot_z"
+            android:layout_width="120sp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

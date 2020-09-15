@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_system"
+        android:icon="@drawable/system_info"
+        android:title="System" />
+
+    <item
+        android:id="@+id/navigation_battery"
+        android:icon="@drawable/battery_info"
+        android:title="Battery" />
+
+    <item
+        android:id="@+id/navigation_network"
+        android:icon="@drawable/network_info"
+        android:title="Network" />
+
+    <item
+        android:id="@+id/navigation_memory"
+        android:icon="@drawable/memory_info"
+        android:title="Memory" />
+
+    <item
+    android:id="@+id/navigation_storage"
+    android:icon="@drawable/storage_info"
+    android:title="Storage" />
+
+</menu>

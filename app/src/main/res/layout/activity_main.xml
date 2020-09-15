@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".Starting.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="147sp"
+        android:layout_height="196sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="129sp"
+        android:layout_marginLeft="129sp"
+        android:layout_marginTop="26sp"
+        android:layout_marginEnd="135sp"
+        android:layout_marginRight="135sp"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="222sp"
+        android:layout_height="84sp"
+        android:layout_above="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="97sp"
+        android:layout_marginLeft="97sp"
+        android:layout_marginTop="221sp"
+        android:layout_marginEnd="92sp"
+        android:layout_marginRight="92sp"
+        android:layout_marginBottom="306sp"
+        android:text="Mobile Doc"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="282sp"
+        android:layout_height="140sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="76sp"
+        android:layout_marginLeft="76sp"
+        android:layout_marginEnd="53sp"
+        android:layout_marginRight="53sp"
+        android:layout_marginBottom="-93sp"
+        android:text="Developed By: Keshav Sharma"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="126sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="138sp"
+        android:layout_marginLeft="138sp"
+        android:layout_marginEnd="147sp"
+        android:layout_marginRight="147sp"
+        android:layout_marginBottom="76sp"
+        android:text="Version 1.0"
+        android:textAlignment="center"/>
+
+</RelativeLayout>
